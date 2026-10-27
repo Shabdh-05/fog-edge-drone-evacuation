@@ -1,0 +1,7 @@
+path: datasets/survivor
+
+train: train/images
+val: valid/images
+
+nc: 1
+names: ['person']

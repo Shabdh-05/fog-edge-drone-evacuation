@@ -1,0 +1,50 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+venv310/
+.venv/
+env/
+
+# Secrets and environment files
+.env
+.env.*
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# Videos
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Generated outputs
+runs/
+outputs/
+*.log
+
+# Large datasets - upload code, not the entire dataset
+datasets/
+
+# Trained model checkpoints
+models/*.pth
+models/*.pt
+
+# YOLO model weights
+yolov8n.pt
+yolo26n.pt
+
+# Keep project source code and configuration files
